@@ -1,7 +1,7 @@
 HouHai
 ======
 
-HouHai is online game server framework, base on Tatala.
+HouHai is online game server framework, base on [Tatala](https://github.com/zijan/Tatala).
 
 
 Right now, the source code is just draft version. It is part of network codes of the online game – “Zombie Planet”. And it can’t be compiled.

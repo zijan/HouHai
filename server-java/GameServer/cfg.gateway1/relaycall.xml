@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelayCalls>
+  <RelayCall>
+    <method>login</method>
+    <connectionName>game-login</connectionName>
+    <calleeClass>com.qileyuan.zp.login.proxy.GameLoginServerProxy</calleeClass>
+  </RelayCall>
+  <RelayCall>
+    <method>logout</method>
+    <connectionName>game-login</connectionName>
+    <calleeClass>com.qileyuan.zp.login.proxy.GameLoginServerProxy</calleeClass>
+  </RelayCall>
+  <RelayCall>
+    <method>receiveMessage</method>
+    <connectionName>game-login</connectionName>
+    <calleeClass>com.qileyuan.zp.login.proxy.GameLoginServerProxy</calleeClass>
+  </RelayCall>
+  
+  <RelayCall>
+    <method>enterLobby</method>
+    <connectionName>game-lobby</connectionName>
+    <calleeClass>com.qileyuan.zp.lobby.proxy.GameLobbyServerProxy</calleeClass>
+  </RelayCall>
+  <RelayCall>
+    <method>receiveMovement</method>
+    <connectionName>game-lobby</connectionName>
+    <calleeClass>com.qileyuan.zp.lobby.proxy.GameLobbyServerProxy</calleeClass>
+  </RelayCall>
+  <RelayCall>
+    <method>exitLobby</method>
+    <connectionName>game-lobby</connectionName>
+    <calleeClass>com.qileyuan.zp.lobby.proxy.GameLobbyServerProxy</calleeClass>
+  </RelayCall>
+</RelayCalls>
+

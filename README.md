@@ -3,6 +3,7 @@ HouHai
 
 HouHai is online game server framework, base on [Tatala](https://github.com/zijan/Tatala).
 
+It was implemented by single-server pattern, all players can play together, and easy to expand server volume by adding new server when number of player increase.
 
 Right now, the source code is just draft version. It is part of network codes of the online game – “Zombie Planet”. And it can’t be compiled.
 
